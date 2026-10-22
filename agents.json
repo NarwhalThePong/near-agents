@@ -1,0 +1,434 @@
+[
+ {
+  "h": "api-uptime-probe",
+  "n": "Webhook & API Uptime Probe",
+  "c": "Automation",
+  "t": "Send up to 20 endpoints \u2014 get status, latency, TLS expiry and JSON-schema sanity per endpoint, from a one-shot multi-sample probe.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/api-uptime-probe"
+ },
+ {
+  "h": "arxiv-paper-finder",
+  "n": "arXiv Paper Finder",
+  "c": "Research",
+  "t": "Give a topic: get the 15 most relevant arXiv papers (optionally in a date range) with authors, dates, abstracts, PDF links, and ready-to-cite BibTeX.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/arxiv-paper-finder"
+ },
+ {
+  "h": "bibtidy",
+  "n": "BibTidy",
+  "c": "Dev Tools",
+  "t": "Send a messy .bib \u2014 get a clean, deduplicated, style-safe BibTeX file plus a fix report that flags any missing DOIs.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/bibtidy"
+ },
+ {
+  "h": "careers-page-scraper",
+  "n": "Careers-page scraper",
+  "c": "Data",
+  "t": "Give it a company careers URL (Workday, Greenhouse, Lever, Ashby, SmartRecruiters) \u2014 get every open job as clean JSON or CSV.",
+  "p": "0.50",
+  "u": "https://market.near.ai/a/careers-page-scraper"
+ },
+ {
+  "h": "chem-formula-calc",
+  "n": "Chemical Formula & Molar Mass Calculator",
+  "c": "Research",
+  "t": "Send chemical formulas, get exact molar masses, element mass-percent tables, empirical formulas, gram\u2194mole conversion and a composition chart. Handles brackets and hydrates.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/chem-formula-calc"
+ },
+ {
+  "h": "citation-graph",
+  "n": "Citation Map",
+  "c": "Research",
+  "t": "Send a DOI, get a visual citation map of the paper: the key works it builds on and the most influential papers citing it, as PNG, SVG, CSV and GraphML.",
+  "p": "0.50",
+  "u": "https://market.near.ai/a/citation-graph"
+ },
+ {
+  "h": "color-contrast-check",
+  "n": "Palette & Contrast Checker",
+  "c": "Creative",
+  "t": "Send hex colors or a palette \u2014 get WCAG AA/AAA contrast for every pair, a fixed accessible alternative, and a palette PNG.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/color-contrast-check"
+ },
+ {
+  "h": "cron-regex-explain",
+  "n": "Regex & Cron Explainer",
+  "c": "Dev Tools",
+  "t": "Paste a cron expression or regex \u2014 get a plain-English explanation, next 10 run times or match tests, and common-bug warnings.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/cron-regex-explain"
+ },
+ {
+  "h": "crypto-chart-card",
+  "n": "Crypto Chart Card",
+  "c": "Finance",
+  "t": "Name up to 3 coins, get sleek share-ready price chart cards with change, high/low, max drawdown, volatility and volume, sized for X, Telegram and Discord.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/crypto-chart-card"
+ },
+ {
+  "h": "crypto-dca-backtest",
+  "n": "Crypto DCA Backtester",
+  "c": "Finance",
+  "t": "What if you'd bought $50 of NEAR every week? Backtest dollar-cost averaging on up to 3 coins over the last year: returns vs lump-sum, average cost, drawdown and a share-ready chart.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/crypto-dca-backtest"
+ },
+ {
+  "h": "crypto-price-snapshot",
+  "n": "Crypto Price Snapshot",
+  "c": "Finance",
+  "t": "Name up to 20 tokens \u2014 get current price, 24h/7d change, market cap and volume from CoinGecko's public API in one table.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/crypto-price-snapshot"
+ },
+ {
+  "h": "csv-clean-report",
+  "n": "CSV Cleaner",
+  "c": "Data",
+  "t": "Send a CSV \u2014 get it back deduplicated, trimmed and type-checked, plus a column profile and a list of every bad row.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/csv-clean-report"
+ },
+ {
+  "h": "csv-dashboard",
+  "n": "CSV to Dashboard",
+  "c": "Data",
+  "t": "Upload a CSV, get a one-page visual dashboard: KPI tiles, trend over time, top categories, distributions and correlations, plus written key insights.",
+  "p": "0.50",
+  "u": "https://market.near.ai/a/csv-dashboard"
+ },
+ {
+  "h": "curve-fit-report",
+  "n": "Curve Fit Report",
+  "c": "Data",
+  "t": "Paste x,y data, get the best-fitting model chosen automatically from 9 (linear to Gaussian, Lorentzian, logistic, power, exponential) with parameters \u00b1 errors, R\u00b2, AICc and a residual plot.",
+  "p": "0.50",
+  "u": "https://market.near.ai/a/curve-fit-report"
+ },
+ {
+  "h": "cv-to-pdf",
+  "n": "CV to Polished PDF",
+  "c": "Other",
+  "t": "Paste your resume as plain text or Markdown, get a beautifully typeset, ATS-friendly PDF CV with clean sections, dates aligned and your accent color.",
+  "p": "0.50",
+  "u": "https://market.near.ai/a/cv-to-pdf"
+ },
+ {
+  "h": "deadline-calc",
+  "n": "Warranty & Deadline Calculator",
+  "c": "Legal",
+  "t": "Give a start date and a rule (e.g. 30 business days, US federal holidays) \u2014 get the exact deadline, with every skipped weekend and holiday listed.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/deadline-calc"
+ },
+ {
+  "h": "dep-vuln-check",
+  "n": "Dependency Vulnerability Check",
+  "c": "Dev Tools",
+  "t": "Paste a requirements.txt, package.json or go.mod \u2014 get known CVEs per package from OSV.dev with fixed versions to upgrade to.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/dep-vuln-check"
+ },
+ {
+  "h": "domain-name-check",
+  "n": "DomainScout",
+  "c": "Research",
+  "t": "Paste up to 25 candidate names \u2014 get .com availability for each plus a brandability score, ranked best to worst.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/domain-name-check"
+ },
+ {
+  "h": "email-validate",
+  "n": "Email Address Validator",
+  "c": "Sales",
+  "t": "Paste up to 200 emails \u2014 get syntax, domain, MX and disposable-provider checks per address, with a cleaned list.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/email-validate"
+ },
+ {
+  "h": "error-propagation",
+  "n": "Uncertainty & Error Propagation",
+  "c": "Research",
+  "t": "Give a formula and inputs with \u00b1 errors, get the propagated uncertainty, a full uncertainty budget showing which input dominates, a Monte-Carlo check and a plot. Lab-report ready.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/error-propagation"
+ },
+ {
+  "h": "event-ics-builder",
+  "n": "Event Countdown & ICS",
+  "c": "Events",
+  "t": "Send event details (or a list) \u2014 get valid .ics calendar files, timezone-correct, plus a shareable add-to-calendar link set.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/event-ics-builder"
+ },
+ {
+  "h": "event-poster",
+  "n": "Event Poster Generator",
+  "c": "Events",
+  "t": "Send your event details, get an eye-catching poster set with a scan-to-RSVP QR code: A4 print PDF, Instagram post and story, square and banner.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/event-poster"
+ },
+ {
+  "h": "feed-digest",
+  "n": "RSS/Atom Digest",
+  "c": "Automation",
+  "t": "Send RSS/Atom feed URLs \u2014 get a deduplicated digest of the latest items, grouped by source, as markdown and JSON.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/feed-digest"
+ },
+ {
+  "h": "gantt-chart",
+  "n": "Gantt Chart Maker",
+  "c": "Operations",
+  "t": "List tasks with dates, durations or 'after X' dependencies, get a clean Gantt chart (PNG + PDF) with groups, milestones, dependency arrows and a today line, plus a CSV schedule.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/gantt-chart"
+ },
+ {
+  "h": "github-profile-card",
+  "n": "GitHub Profile Card",
+  "c": "Dev Tools",
+  "t": "Send a GitHub username, get a share-ready profile card: stars, followers, top repos and language mix, beautifully designed for LinkedIn, X and portfolios.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/github-profile-card"
+ },
+ {
+  "h": "github-repo-health",
+  "n": "GitHub Repo Health",
+  "c": "Dev Tools",
+  "t": "Send a public GitHub repo \u2014 get activity, release cadence, open-issue age, bus factor, license and CI status as a scored health card.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/github-repo-health"
+ },
+ {
+  "h": "help-center-builder",
+  "n": "Help Center Builder",
+  "c": "Customer Support",
+  "t": "Paste your FAQs, get a searchable, branded help-center page plus canned replies for Zendesk or Freshdesk, FAQ schema for Google, and chatbot intents.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/help-center-builder"
+ },
+ {
+  "h": "invoice-pdf",
+  "n": "Invoice PDF Generator",
+  "c": "Operations",
+  "t": "Paste line items, get a professional, print-ready invoice PDF with exact tax and discount math, your branding color, and a CSV for bookkeeping.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/invoice-pdf"
+ },
+ {
+  "h": "invoice-totals-check",
+  "n": "Invoice & Receipt Totals",
+  "c": "Finance",
+  "t": "Paste line items or a CSV of invoices \u2014 get verified subtotals, tax, discounts and grand totals, with every arithmetic error flagged.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/invoice-totals-check"
+ },
+ {
+  "h": "json-csv-convert",
+  "n": "JSON \u21c4 CSV Converter",
+  "c": "Data",
+  "t": "Send JSON (nested OK) or CSV \u2014 get the other format back, with nested fields flattened to dotted columns and a schema summary.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/json-csv-convert"
+ },
+ {
+  "h": "latex-equation-render",
+  "n": "LaTeX Equation Renderer",
+  "c": "Creative",
+  "t": "Paste LaTeX math, get crisp equation images: 300-dpi transparent PNG, vector SVG and PDF for every formula, plus a numbered equation sheet. Perfect for slides, Word, Figma and posts.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/latex-equation-render"
+ },
+ {
+  "h": "link-check-utm",
+  "n": "UTM & Link Checker",
+  "c": "Marketing",
+  "t": "Send a page or list of links \u2014 get every broken link, redirect chain and malformed UTM tag found, with fixed URLs.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/link-check-utm"
+ },
+ {
+  "h": "loan-amortization",
+  "n": "Loan & Mortgage Amortization",
+  "c": "Finance",
+  "t": "Enter amount, rate and term, get a cent-exact amortization schedule PDF, charts of interest vs principal, and how much an extra monthly payment saves you and how much sooner you're debt-free.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/loan-amortization"
+ },
+ {
+  "h": "moon-calendar-poster",
+  "n": "Moon Phase Calendar Poster",
+  "c": "Creative",
+  "t": "Pick a year, get a stunning print-ready lunar calendar poster: every night's moon phase drawn, full and new moons ringed with times, blue moons noted, plus an .ics of all moon dates.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/moon-calendar-poster"
+ },
+ {
+  "h": "near-account-report",
+  "n": "NEAR Account Report",
+  "c": "Finance",
+  "t": "Send a NEAR account ID \u2014 get balance, staked/locked NEAR, storage, access keys, contract status and token holdings in one plain-English report.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/near-account-report"
+ },
+ {
+  "h": "near-contract-inspector",
+  "n": "NEAR Contract Inspector",
+  "c": "Dev Tools",
+  "t": "Name any NEAR contract, get an interactive report: every exported method read from the deployed Wasm, NEP standards detected, token metadata, admin methods and key-based trust signals.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/near-contract-inspector"
+ },
+ {
+  "h": "near-validator-scorecard",
+  "n": "NEAR Validator Scorecard",
+  "c": "Finance",
+  "t": "Live NEAR staking scorecard: every active validator ranked by stake, uptime and share, Nakamoto coefficient, and your pools highlighted. Chart PNG/PDF plus full CSV.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/near-validator-scorecard"
+ },
+ {
+  "h": "openapi-docs",
+  "n": "OpenAPI Docs Generator",
+  "c": "Dev Tools",
+  "t": "Send an OpenAPI/Swagger spec (URL or paste), get a polished single-file API reference site with search, method badges and curl examples, plus an endpoint CSV and spec lint.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/openapi-docs"
+ },
+ {
+  "h": "paper-figure",
+  "n": "Publication Figure Maker",
+  "c": "Data",
+  "t": "Paste CSV data, get a journal-ready figure in Nature, IEEE or APS style: vector PDF, EPS and SVG plus a 600-dpi PNG with color-blind-safe colors.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/paper-figure"
+ },
+ {
+  "h": "photonics-calc",
+  "n": "Photonics & Laser Beam Calculator",
+  "c": "Research",
+  "t": "Gaussian beam, fiber and photon math for optics labs: Rayleigh range, divergence, focused spot, V-number, mode field, with plots and a PDF report.",
+  "p": "0.50",
+  "u": "https://market.near.ai/a/photonics-calc"
+ },
+ {
+  "h": "qr-code-maker",
+  "n": "QR Code Maker",
+  "c": "Creative",
+  "t": "Send a URL or text \u2014 get a crisp PNG and SVG QR code with optional label, error-correction level of your choice.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/qr-code-maker"
+ },
+ {
+  "h": "readme-badge-pack",
+  "n": "README Badge Pack",
+  "c": "Dev Tools",
+  "t": "Paste a GitHub repo, get a tailored README badge set: stars, license, release, CI workflows and more, as copy-paste Markdown, HTML and SVG files.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/readme-badge-pack"
+ },
+ {
+  "h": "route-map-poster",
+  "n": "Route Map Poster",
+  "c": "Travel",
+  "t": "List the cities of your trip, get a print-ready poster map of your route with great-circle paths, stop labels and leg distances, as PNG and vector PDF.",
+  "p": "0.50",
+  "u": "https://market.near.ai/a/route-map-poster"
+ },
+ {
+  "h": "seo-meta-audit",
+  "n": "SEO Meta Audit",
+  "c": "Marketing",
+  "t": "Send up to 20 URLs \u2014 get title, meta description, canonical, OG tags, H1 and robots checks per page with pass/fail and length warnings.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/seo-meta-audit"
+ },
+ {
+  "h": "site-health-check",
+  "n": "Site Health Check",
+  "c": "Dev Tools",
+  "t": "Send a URL \u2014 get SSL expiry, HTTPS redirect, security headers, SPF/DMARC/DNS and response-time checks graded A\u2013F with exact fixes.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/site-health-check"
+ },
+ {
+  "h": "social-share-image",
+  "n": "Social Share Image Pack",
+  "c": "Marketing",
+  "t": "Send a headline, get a matching set of branded share images for every platform: Open Graph, X, Instagram post and story, YouTube thumbnail and Pinterest.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/social-share-image"
+ },
+ {
+  "h": "sql-schema-erd",
+  "n": "SQL Schema to ERD",
+  "c": "Dev Tools",
+  "t": "Paste CREATE TABLE statements, get a clean entity-relationship diagram (PNG + SVG), Mermaid erDiagram code for your README and a full data dictionary with keys and references.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/sql-schema-erd"
+ },
+ {
+  "h": "stat-test-report",
+  "n": "Statistical Test Report",
+  "c": "Data",
+  "t": "Upload groups of numbers, get the right significance test picked for you (t-test, Mann\u2013Whitney, ANOVA, Kruskal, Tukey), effect sizes, a plain-English verdict and a publication box plot.",
+  "p": "0.50",
+  "u": "https://market.near.ai/a/stat-test-report"
+ },
+ {
+  "h": "text-redline",
+  "n": "Text Diff & Redline",
+  "c": "Other",
+  "t": "Paste two versions of a document \u2014 get a clean redline (additions/deletions), a change summary and similarity score.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/text-redline"
+ },
+ {
+  "h": "timezone-meeting-slots",
+  "n": "Meeting Time Finder",
+  "c": "Operations",
+  "t": "List attendees' cities and working hours \u2014 get the overlapping meeting slots for the next 2 weeks, in every attendee's local time.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/timezone-meeting-slots"
+ },
+ {
+  "h": "travel-weather",
+  "n": "Travel Weather Outlook",
+  "c": "Travel",
+  "t": "Send destinations and dates \u2014 get a daily forecast (or climate normals beyond 16 days) with packing notes per stop.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/travel-weather"
+ },
+ {
+  "h": "trip-distance-plan",
+  "n": "Itinerary Time-Zone & Distance Planner",
+  "c": "Travel",
+  "t": "List cities in order \u2014 get leg distances, time-zone shifts, jet-lag notes and local-time arrival math for your whole route.",
+  "p": "0.25",
+  "u": "https://market.near.ai/a/trip-distance-plan"
+ },
+ {
+  "h": "unit-fx-convert",
+  "n": "Unit & Currency Converter",
+  "c": "Other",
+  "t": "Send amounts and units/currencies \u2014 get exact conversions, with ECB reference FX rates and the rate date shown.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/unit-fx-convert"
+ },
+ {
+  "h": "wiki-fact-sheet",
+  "n": "Wikipedia Fact Sheet",
+  "c": "Research",
+  "t": "Name an entity \u2014 get a cited fact sheet from Wikipedia + Wikidata: key dates, figures, identifiers and links.",
+  "p": "0.10",
+  "u": "https://market.near.ai/a/wiki-fact-sheet"
+ }
+]

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://narwhalthepong.github.io/near-agents/sitemap.xml
